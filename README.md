@@ -8,7 +8,7 @@
     A modern, full-featured multiplayer whiteboard app that lets users draw, chat, and collaborate in real-time.
   </p>
 </div>
-![Alt text](https://github.com/ViratKumarr/Scribble_Whiteboard_Multiplayer_App/blob/9cd29de0f322ccf6fa60f852165d579fa7547b9e/Screenshot%202025-07-30%20122234.png)
+![image alt](https://github.com/ViratKumarr/Scribble_Whiteboard_Multiplayer_App/blob/9cd29de0f322ccf6fa60f852165d579fa7547b9e/Screenshot%202025-07-30%20122234.png)
 
 
 
