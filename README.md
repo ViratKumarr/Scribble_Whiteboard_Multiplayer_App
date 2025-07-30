@@ -68,8 +68,8 @@ scribble.io/
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/scribble.io.git
-   cd scribble.io
+   git clone https://github.com/ViratKumarr/Scribble_Whiteboard_Multiplayer_App.git
+   cd Scribble.io
    ```
 
 2. Install dependencies for both client and server
