@@ -1,0 +1,38 @@
+{
+  "name": "scribble.io",
+  "version": "1.0.0",
+  "description": "A real-time collaborative whiteboard application",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
+    "start:client": "cd client && npm start",
+    "start:server": "cd server && npm start",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:client": "cd client && npm start",
+    "dev:server": "cd server && npm run dev",
+    "install:all": "npm install && npm run install:client && npm run install:server",
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install",
+    "build": "npm run build:client",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": [
+    "whiteboard",
+    "collaborative",
+    "drawing",
+    "real-time",
+    "socket.io",
+    "react",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": {
+    "name": "Virat Kumarr",
+    "url": "https://github.com/ViratKumarr"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
