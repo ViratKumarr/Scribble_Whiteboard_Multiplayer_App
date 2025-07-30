@@ -165,9 +165,9 @@ Built using modern web technologies focused on speed, collaboration, and usabili
 
 ## 🧑‍💻 Creator
 Virat Kumarr
-🔗 GitHub
-🌐 Portfolio
-💼 LinkedIn
+🔗 GitHub : https://github.com/ViratKumarr
+🌐 Portfolio : https://virat-portfolio-personal.vercel.app/
+💼 LinkedIn : https://www.linkedin.com/in/virat-kumar-b0b57024a
 
 <p align="center">
  Made with ❤️ using React, Node.js & Socket.IO by Virat Kumar
