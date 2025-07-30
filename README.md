@@ -1,98 +1,104 @@
-<p align="left"> © Virat Kumar 2025 | Built with ❤️ using MERN Stack + Socket.IO </p> <div align="center"> <h2>🖌️ Scribble.io - Real-time Collaborative Whiteboard</h2> <p> A modern, full-featured multiplayer whiteboard app that lets users draw, chat, and collaborate in real-time. </p> <img src="https://user-images.githubusercontent.com/your-screenshot-link" alt="Scribble Demo" width="100%"/> </div>
-📋 Table of Contents
-🧠 Introduction
+<p align="left">
+  © Virat Kumar 2025 | Built with ❤️ using MERN Stack + Socket.IO
+</p>
 
-⚙️ Tech Stack
+<div align="center">
+  <h2>🖌️ Scribble.io - Real-time Collaborative Whiteboard</h2>
+  <p>
+    A modern, full-featured multiplayer whiteboard app that lets users draw, chat, and collaborate in real-time.
+  </p>
+  <img src="https://your-image-link-here.png" alt="Scribble Whiteboard Demo" width="100%" />
+</div>
 
-🚀 Features
+---
 
-⚡ Getting Started
+## 📋 Table of Contents
 
-🌐 Deployment
+1. [🧠 Introduction](#introduction)
+2. [⚙️ Tech Stack](#tech-stack)
+3. [🚀 Features](#features)
+4. [⚡ Getting Started](#getting-started)
+5. [🌐 Deployment](#deployment)
+6. [📮 Contributing](#contributing)
+7. [📜 License](#license)
+8. [🙏 Acknowledgments](#acknowledgments)
+9. [🧑‍💻 Creator](#creator)
 
-📮 Contributing
+---
 
-📜 License
+## 🧠 Introduction
 
-🙏 Acknowledgments
+**Scribble.io** is a real-time collaborative whiteboard built using the MERN stack, WebSockets (Socket.IO), and the HTML5 Canvas API.  
+Whether you're sketching ideas, conducting remote tutorials, or brainstorming with your team — this app makes real-time visual collaboration effortless.
 
-🧑‍💻 Creator
+> Think Excalidraw meets Google Meet—without the complexity.
 
-🧠 Introduction
-Scribble.io is a real-time collaborative whiteboard built with the MERN stack, WebSockets (Socket.IO), and the HTML5 Canvas API. Whether you're brainstorming ideas, tutoring live, or sketching with friends—this platform gives you a clean, fast, and responsive space to create together.
+---
 
-Think Excalidraw meets Google Meet—without the complexity.
+## ⚙️ Tech Stack
 
-⚙️ Tech Stack
-🖥️ Frontend
-⚛️ React.js (with TypeScript)
+### 🖥️ Frontend
 
-🎨 HTML5 Canvas API
+- ⚛️ React.js (with TypeScript)
+- 🎨 HTML5 Canvas API
+- 💬 Socket.IO Client
+- 💅 Styled Components
+- 🧭 React Router
 
-💬 Socket.IO Client
+### 🌐 Backend
 
-💅 Styled Components
+- 🟩 Node.js
+- 🚂 Express.js
+- 🧠 Socket.IO
+- 🗃️ MongoDB (Mongoose)
+- 🔐 JWT Authentication
 
-🧭 React Router
+---
 
-🌐 Backend
-🟩 Node.js
+## 🚀 Features
 
-🚂 Express.js
+✅ **Real-time Collaborative Drawing**  
+✅ **Multiple Drawing Tools** (pen, eraser, shapes, text)  
+✅ **Custom Color Picker & Brush Size**  
+✅ **Room-based Collaboration with User Auth**  
+✅ **Live Chat Integration**  
+✅ **Canvas Save/Load from Database**  
+✅ **Fully Responsive Design**
 
-🧠 Socket.IO
+---
 
-🗃️ MongoDB (Mongoose)
+## ⚡ Getting Started
 
-🔐 JWT Authentication
+### ✅ Prerequisites
 
-🚀 Features
-✅ Real-time Collaboration — Draw together on a shared canvas using websockets.
-✅ Multiple Tools — Pen, eraser, shapes, text input, and color picker with custom brush size.
-✅ Room System — Invite others with room codes.
-✅ User Auth — Secure login/register via JWT.
-✅ Persistent Storage — Save/load canvas sessions from MongoDB.
-✅ Live Chat — Communicate while drawing.
-✅ Responsive UI — Works across mobile, tablet, and desktop.
+- Node.js (v14 or higher)
+- npm or yarn
+- MongoDB (local or cloud)
 
-⚡ Getting Started
-✅ Prerequisites
-Node.js (v14+)
+### 📥 Clone & Install
 
-npm or yarn
-
-MongoDB (local or cloud)
-
-📥 Clone & Install
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/ViratKumarr/Scribble_Whiteboard_Multiplayer_App.git
 cd Scribble.io
-bash
-Copy
-Edit
-# Install server dependencies
+```
+
+# Server setup
 cd server
 npm install
 
-# Install client dependencies
+# Client setup
 cd ../client
 npm install
-⚙️ Setup Environment
-In the /server directory, create a .env file and add:
 
-env
-Copy
-Edit
+## ⚙️ Environment Variables
+Create a .env file in the server/ directory:
+
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/scribble
 JWT_SECRET=your_jwt_secret
 CLIENT_URL=http://localhost:3000
-🚀 Run the App
-bash
-Copy
-Edit
+
+## 🚀 Run the App
 # Start backend
 cd server
 npm run dev
@@ -100,38 +106,62 @@ npm run dev
 # Start frontend
 cd ../client
 npm start
-Open your browser at 👉 http://localhost:3000
 
-🌐 Deployment
-🖼️ Frontend — Deploy to Vercel, Netlify, or GitHub Pages
-🧠 Backend — Use Heroku, Railway, or a VPS
-📦 Database — Deploy with MongoDB Atlas
+Open 👉 http://localhost:3000 in your browser.
 
-📮 Contributing
-We welcome contributions!
+## 🌐 Deployment
 
-bash
-Copy
-Edit
-# Step 1: Fork the repo
-# Step 2: Create a new branch
-git checkout -b feature/amazing-feature
+Frontend → Vercel, Netlify, GitHub Pages
 
-# Step 3: Make changes, commit
-git commit -m "Add new feature"
+Backend → Heroku, Railway, Render
 
-# Step 4: Push and create a PR
-git push origin feature/amazing-feature
-📜 License
-Distributed under the MIT License. See LICENSE for more info.
+Database → MongoDB Atlas
 
-🙏 Acknowledgments
-Inspired by tools like Excalidraw, Miro, and Figma Whiteboard
+## 📁 Project Structure
+scribble.io/
+├── client/                 # Frontend React app
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       ├── contexts/
+│       ├── hooks/
+│       ├── pages/
+│       ├── services/
+│       ├── styles/
+│       ├── types/
+│       └── utils/
+├── server/                 # Backend Node.js app
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   └── utils/
+└── shared/                 # Shared code
+    └── types/
 
-Built using modern real-time collaboration techniques
+## 📜 License
+Distributed under the MIT License.
+See LICENSE for full license info.
 
-🧑‍💻 Creator
+## 🙏 Acknowledgments
+Inspired by Excalidraw, Miro, and real-time multiplayer tools
+
+Built using modern web technologies focused on speed, collaboration, and usability
+
+## 🧑‍💻 Creator
 Virat Kumarr
-🔗 GitHub | 🌐 Portfolio | 💼 LinkedIn
+🔗 GitHub
+🌐 Portfolio
+💼 LinkedIn
 
-Made with ❤️ and WebSockets by Virat Kumar
+Made with ❤️ using React, Node.js & Socket.IO by Virat Kumar
+
+
+
+
+
+
+
+
