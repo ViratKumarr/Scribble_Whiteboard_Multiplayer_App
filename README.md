@@ -1,6 +1,5 @@
 <p align="left">
   © Virat Kumar 2025 | Built with ❤️ using MERN Stack + Socket.IO
-
 </p>
 <div align="center">
   <h2>🖌️ Scribble.io - Real-time Collaborative Whiteboard</h2>
@@ -8,6 +7,7 @@
     A modern, full-featured multiplayer whiteboard app that lets users draw, chat, and collaborate in real-time.
   </p>
 </div>
+
 ![image alt](https://github.com/ViratKumarr/Scribble_Whiteboard_Multiplayer_App/blob/9cd29de0f322ccf6fa60f852165d579fa7547b9e/Screenshot%202025-07-30%20122234.png)
 
 
