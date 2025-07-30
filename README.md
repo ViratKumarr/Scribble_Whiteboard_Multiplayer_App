@@ -71,6 +71,9 @@ Whether you're sketching ideas, conducting remote tutorials, or brainstorming wi
 ✅ **Canvas Save/Load from Database**  
 ✅ **Fully Responsive Design**
 
+![image alt](https://github.com/ViratKumarr/Scribble_Whiteboard_Multiplayer_App/blob/ae547a748b4428e7af73f3bfd5a85fe54fd95c96/image.png)
+
+
 ---
 
 ## ⚡ Getting Started
