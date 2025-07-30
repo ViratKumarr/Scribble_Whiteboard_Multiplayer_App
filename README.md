@@ -83,29 +83,40 @@ cd Scribble.io
 ```
 
 # Server setup
+
+```bash
 cd server
 npm install
+```
 
 # Client setup
+```bash
 cd ../client
 npm install
+```
 
 ## ⚙️ Environment Variables
 Create a .env file in the server/ directory:
 
 PORT=5000
+```bash
 MONGODB_URI=mongodb://localhost:27017/scribble
 JWT_SECRET=your_jwt_secret
 CLIENT_URL=http://localhost:3000
+```
 
 ## 🚀 Run the App
 # Start backend
+```bash
 cd server
 npm run dev
+```
 
 # Start frontend
+```bash
 cd ../client
 npm start
+```
 
 Open 👉 http://localhost:3000 in your browser.
 
@@ -118,6 +129,7 @@ Backend → Heroku, Railway, Render
 Database → MongoDB Atlas
 
 ## 📁 Project Structure
+```bash
 scribble.io/
 ├── client/                 # Frontend React app
 │   ├── public/
@@ -140,6 +152,7 @@ scribble.io/
 │   └── utils/
 └── shared/                 # Shared code
     └── types/
+```
 
 ## 📜 License
 Distributed under the MIT License.
@@ -156,7 +169,10 @@ Virat Kumarr
 🌐 Portfolio
 💼 LinkedIn
 
-Made with ❤️ using React, Node.js & Socket.IO by Virat Kumar
+<p align="center">
+ Made with ❤️ using React, Node.js & Socket.IO by Virat Kumar
+
+</p>
 
 
 
