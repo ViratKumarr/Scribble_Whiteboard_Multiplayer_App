@@ -10,8 +10,6 @@
 
 ![image alt](https://github.com/ViratKumarr/Scribble_Whiteboard_Multiplayer_App/blob/9cd29de0f322ccf6fa60f852165d579fa7547b9e/Screenshot%202025-07-30%20122234.png)
 
-
-
 ---
 
 ## 📋 Table of Contents
@@ -26,6 +24,8 @@
 8. [🙏 Acknowledgments](#acknowledgments)
 9. [🧑‍💻 Creator](#creator)
 
+![image alt](https://github.com/ViratKumarr/Scribble_Whiteboard_Multiplayer_App/blob/116e54aaa78e4a580662ab0249531b2e7c780691/Screenshot%202025-07-30%20122217.png)
+
 ---
 
 ## 🧠 Introduction
@@ -34,6 +34,8 @@
 Whether you're sketching ideas, conducting remote tutorials, or brainstorming with your team — this app makes real-time visual collaboration effortless.
 
 > Think Excalidraw meets Google Meet—without the complexity.
+
+![image alt](https://github.com/ViratKumarr/Scribble_Whiteboard_Multiplayer_App/blob/116e54aaa78e4a580662ab0249531b2e7c780691/Screenshot%202025-07-30%20122127.png)
 
 ---
 
@@ -54,6 +56,8 @@ Whether you're sketching ideas, conducting remote tutorials, or brainstorming wi
 - 🧠 Socket.IO
 - 🗃️ MongoDB (Mongoose)
 - 🔐 JWT Authentication
+
+![image alt](https://github.com/ViratKumarr/Scribble_Whiteboard_Multiplayer_App/blob/116e54aaa78e4a580662ab0249531b2e7c780691/Screenshot%202025-07-30%20122002.png)
 
 ---
 
