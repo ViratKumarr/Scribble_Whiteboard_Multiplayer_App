@@ -1,134 +1,137 @@
-# Scribble.io - Collaborative Whiteboard Application
+<p align="left"> © Virat Kumar 2025 | Built with ❤️ using MERN Stack + Socket.IO </p> <div align="center"> <h2>🖌️ Scribble.io - Real-time Collaborative Whiteboard</h2> <p> A modern, full-featured multiplayer whiteboard app that lets users draw, chat, and collaborate in real-time. </p> <img src="https://user-images.githubusercontent.com/your-screenshot-link" alt="Scribble Demo" width="100%"/> </div>
+📋 Table of Contents
+🧠 Introduction
 
-Scribble.io is a real-time collaborative whiteboard application that allows multiple users to draw and interact simultaneously on a shared canvas.
+⚙️ Tech Stack
 
-## Features
+🚀 Features
 
-- Real-time collaborative drawing
-- Multiple drawing tools (pen, eraser, shapes, text)
-- Color picker and brush size options
-- User authentication and authorization
-- Persistent canvas saving and loading
-- Room-based collaboration
-- Chat functionality
-- Responsive design
+⚡ Getting Started
 
-## Tech Stack
+🌐 Deployment
 
-### Frontend
-- React.js with TypeScript
-- HTML5 Canvas API
-- Socket.IO Client
-- Styled Components
-- React Router
+📮 Contributing
 
-### Backend
-- Node.js
-- Express.js
-- Socket.IO
-- MongoDB (for storing users and saved canvases)
-- JWT for authentication
+📜 License
 
-## Project Structure
+🙏 Acknowledgments
 
-```
-scribble.io/
-├── client/                 # Frontend React application
-│   ├── public/             # Static files
-│   └── src/                # React source code
-│       ├── components/     # UI components
-│       ├── contexts/       # React contexts
-│       ├── hooks/          # Custom React hooks
-│       ├── pages/          # Page components
-│       ├── services/       # API services
-│       ├── styles/         # Global styles
-│       ├── types/          # TypeScript type definitions
-│       └── utils/          # Utility functions
-├── server/                 # Backend Node.js application
-│   ├── config/             # Configuration files
-│   ├── controllers/        # Request handlers
-│   ├── middleware/         # Express middleware
-│   ├── models/             # Database models
-│   ├── routes/             # API routes
-│   ├── services/           # Business logic
-│   └── utils/              # Utility functions
-└── shared/                 # Shared code between client and server
-    └── types/              # Shared TypeScript types
-```
+🧑‍💻 Creator
 
-## Getting Started
+🧠 Introduction
+Scribble.io is a real-time collaborative whiteboard built with the MERN stack, WebSockets (Socket.IO), and the HTML5 Canvas API. Whether you're brainstorming ideas, tutoring live, or sketching with friends—this platform gives you a clean, fast, and responsive space to create together.
 
-### Prerequisites
+Think Excalidraw meets Google Meet—without the complexity.
 
-- Node.js (v14 or higher)
-- npm or yarn
-- MongoDB
+⚙️ Tech Stack
+🖥️ Frontend
+⚛️ React.js (with TypeScript)
 
-### Installation
+🎨 HTML5 Canvas API
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/ViratKumarr/Scribble_Whiteboard_Multiplayer_App.git
-   cd Scribble.io
-   ```
+💬 Socket.IO Client
 
-2. Install dependencies for both client and server
-   ```bash
-   # Install server dependencies
-   cd server
-   npm install
-   
-   # Install client dependencies
-   cd ../client
-   npm install
-   ```
+💅 Styled Components
 
-3. Set up environment variables
-   - Create a `.env` file in the server directory
-   - Add the following variables:
-     ```
-     PORT=5000
-     MONGODB_URI=mongodb://localhost:27017/scribble
-     JWT_SECRET=your_jwt_secret
-     CLIENT_URL=http://localhost:3000
-     ```
+🧭 React Router
 
-4. Start the development servers
-   ```bash
-   # Start the server (from the server directory)
-   npm run dev
-   
-   # Start the client (from the client directory)
-   npm start
-   ```
+🌐 Backend
+🟩 Node.js
 
-5. Open your browser and navigate to `http://localhost:3000`
+🚂 Express.js
 
-## Deployment
+🧠 Socket.IO
 
-The application can be deployed to various platforms:
+🗃️ MongoDB (Mongoose)
 
-- Frontend: Vercel, Netlify, or GitHub Pages
-- Backend: Heroku, Railway, or any VPS
-- Database: MongoDB Atlas
+🔐 JWT Authentication
 
-## Contributing
+🚀 Features
+✅ Real-time Collaboration — Draw together on a shared canvas using websockets.
+✅ Multiple Tools — Pen, eraser, shapes, text input, and color picker with custom brush size.
+✅ Room System — Invite others with room codes.
+✅ User Auth — Secure login/register via JWT.
+✅ Persistent Storage — Save/load canvas sessions from MongoDB.
+✅ Live Chat — Communicate while drawing.
+✅ Responsive UI — Works across mobile, tablet, and desktop.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+⚡ Getting Started
+✅ Prerequisites
+Node.js (v14+)
 
-## License
+npm or yarn
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+MongoDB (local or cloud)
 
-## Acknowledgments
+📥 Clone & Install
+bash
+Copy
+Edit
+git clone https://github.com/ViratKumarr/Scribble_Whiteboard_Multiplayer_App.git
+cd Scribble.io
+bash
+Copy
+Edit
+# Install server dependencies
+cd server
+npm install
 
-- Inspired by collaborative drawing applications like Excalidraw and Miro
-- Built with modern web technologies for real-time collaboration
+# Install client dependencies
+cd ../client
+npm install
+⚙️ Setup Environment
+In the /server directory, create a .env file and add:
 
-## Creator
+env
+Copy
+Edit
+PORT=5000
+MONGODB_URI=mongodb://localhost:27017/scribble
+JWT_SECRET=your_jwt_secret
+CLIENT_URL=http://localhost:3000
+🚀 Run the App
+bash
+Copy
+Edit
+# Start backend
+cd server
+npm run dev
 
-- **Virat Kumarr** - [GitHub](https://github.com/ViratKumarr) | [Portfolio](https://virat-portfolio-personal.vercel.app/)
+# Start frontend
+cd ../client
+npm start
+Open your browser at 👉 http://localhost:3000
+
+🌐 Deployment
+🖼️ Frontend — Deploy to Vercel, Netlify, or GitHub Pages
+🧠 Backend — Use Heroku, Railway, or a VPS
+📦 Database — Deploy with MongoDB Atlas
+
+📮 Contributing
+We welcome contributions!
+
+bash
+Copy
+Edit
+# Step 1: Fork the repo
+# Step 2: Create a new branch
+git checkout -b feature/amazing-feature
+
+# Step 3: Make changes, commit
+git commit -m "Add new feature"
+
+# Step 4: Push and create a PR
+git push origin feature/amazing-feature
+📜 License
+Distributed under the MIT License. See LICENSE for more info.
+
+🙏 Acknowledgments
+Inspired by tools like Excalidraw, Miro, and Figma Whiteboard
+
+Built using modern real-time collaboration techniques
+
+🧑‍💻 Creator
+Virat Kumarr
+🔗 GitHub | 🌐 Portfolio | 💼 LinkedIn
+
+Made with ❤️ and WebSockets by Virat Kumar
