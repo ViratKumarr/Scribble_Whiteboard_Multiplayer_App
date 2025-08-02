@@ -1,4 +1,6 @@
-
+<p align="left">
+  © Virat Kumar 2025 | Built with ❤️ using MERN Stack + Socket.IO
+</p>
 <div align="center">
   <h2>🖌️ Scribble.io - Real-time Collaborative Whiteboard</h2>
   <p>
